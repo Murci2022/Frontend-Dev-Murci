@@ -66,7 +66,7 @@ const Work = ({ setSection, setIsShown }) => {
         <CardTitle>Frontend Developer | Designer</CardTitle>
         <Info>
           <Link
-            href='https://portfolio-mate.vercel.app/'
+            href='https://frontend-dev-murci.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >

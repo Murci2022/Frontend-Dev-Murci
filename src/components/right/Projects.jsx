@@ -80,7 +80,7 @@ const Projects = ({ setSection }) => {
       ref={ref}
       id='projects'
     >
-      <Title>Projects</Title>
+      <Title>Currently Working On:</Title>
 
       <Card>
         <div
@@ -90,10 +90,12 @@ const Projects = ({ setSection }) => {
             marginBottom: '24px',
           }}
         >
-          <ProjectTitle>First Project</ProjectTitle>
+          <ProjectTitle>
+            Kalman Gasztonyi | Painter Official Website
+          </ProjectTitle>
           <div>
             <Link
-              href='#'
+              href='https://gasztonyi-kalman.vercel.app/'
               target='_blank'
               rel='noreferrer'
             >
@@ -102,22 +104,36 @@ const Projects = ({ setSection }) => {
           </div>
         </div>
         <ProjectParagraph>
-          Here I&apos;ll describe in a paragraph or so what my project is, what
-          it does, and most importantly WHO IT SERVES! Describe the problem it
-          fixes and for who it fixes it for. If you worked on a team, say which
-          parts that you built. I like to add a video of how it works like the
-          one below so people don&apos;t have to sign up if they don&apos;t want
-          to.
+          Kalman Gasztonyi is a renowned painter whose works captivate art
+          enthusiasts around the world. This project, the official website of
+          Kalman Gasztonyi, serves as a comprehensive digital gallery and
+          resource for anyone interested in his art. The website showcases a
+          curated collection of his paintings, providing detailed descriptions
+          and high-resolution images for art collectors, enthusiasts, and
+          potential buyers. It also offers insight into Kalman's creative
+          process, his biography, and upcoming exhibitions. The primary goal of
+          this project is to bridge the gap between Kalman's exceptional artwork
+          and a global audience. By presenting his works in a visually engaging
+          and user-friendly manner, the website helps promote his art, making it
+          accessible to a wider audience who might not have the opportunity to
+          visit his exhibitions in person. Our team worked collaboratively to
+          bring this project to life. I focused on the design and development of
+          the website, ensuring a seamless and immersive user experience. The
+          site is designed to be responsive and easy to navigate, with features
+          such as an interactive gallery, a contact form for inquiries, and an
+          integrated blog for updates and news. Additionally, a video
+          walkthrough of the website is included below to provide a quick
+          overview of its functionality and content, making it easy for visitors
+          to explore without needing to sign up.
         </ProjectParagraph>
         {renderTags([
-          'iOS',
-          'Android',
-          'React (Next JS)',
-          'React Native',
-          'Node',
-          'GCP',
-          'Firebase',
-          'Serverless',
+          'Vite',
+          'Styled Components',
+          'Figma',
+          'GitHub',
+          'Git',
+          'Tailwind CSS',
+          'JavaScript',
         ])}
         <div
           style={{
@@ -127,7 +143,7 @@ const Projects = ({ setSection }) => {
             alignItems: 'center',
           }}
         >
-          <Button onClick={() => setVidOne((prev) => !prev)}>Video Demo</Button>
+          {/* <Button onClick={() => setVidOne((prev) => !prev)}>Video Demo</Button>
           {vidOne && (
             <video
               preload='metadata'
@@ -137,11 +153,11 @@ const Projects = ({ setSection }) => {
               <source src='/wips/preview.mp4' />
               Your browser does not support the video tag.
             </video>
-          )}
+          )} */}
         </div>
       </Card>
 
-      <Card>
+      {/*     <Card>
         <ProjectTitle>Second Project</ProjectTitle>
         <ProjectParagraph>
           Here I&apos;ll describe in a paragraph or so what my project is, what
@@ -221,7 +237,7 @@ const Projects = ({ setSection }) => {
             </video>
           )}
         </div>
-      </Card>
+      </Card> */}
     </Section>
   );
 };

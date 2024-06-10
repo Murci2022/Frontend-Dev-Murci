@@ -50,13 +50,14 @@ const Education = ({ setSection }) => {
       <Title>Education</Title>
 
       <Card>
-        <CardTitle>Dope School University</CardTitle>
+        <CardTitle>Dope School</CardTitle>
         <CardParagraph>
-          I attended The Kaufmann, where I earned my international certificate,
-          studying primarily in German. My educational journey continued with a
-          rigorous coding bootcamp at neuefische GmbH, conducted in both English
-          and German. These experiences have equipped me with a solid foundation
-          in web development and enhanced my language skills.
+          "My journey began with learning graphic design, which led me to use
+          Webflow. I then attended The Kaufmann, earning my international
+          certificate while studying primarily in German. My education continued
+          with a rigorous coding bootcamp at neuefische GmbH, conducted in both
+          English and German. These experiences have provided me with a solid
+          foundation in web development and enhanced my language skills."
         </CardParagraph>
         <CardParagraph>
           Additionally, I completed my high school education at Hermann-Otto

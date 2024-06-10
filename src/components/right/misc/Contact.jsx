@@ -35,21 +35,21 @@ const Contact = () => {
       <Paragraph>
         Email:{' '}
         <Link
-          href='mailto:youremail@gmail.com'
+          href='#'
           target='_blank'
           rel='noreferrer'
         >
-          youremail@gmail.com
+          info@matheoskyamaguchi.com
         </Link>
       </Paragraph>
       <Paragraph>
         LinkedIn:{' '}
         <Link
-          href='https://www.linkedin.com'
+          href='https://www.linkedin.com/in/matheos-k-0461b0243/'
           target='_blank'
           rel='noreferrer'
         >
-          @your-linkedin
+          @matheos k.yamaguchi
         </Link>
       </Paragraph>
     </Card>
